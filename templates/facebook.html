@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div style="margin:0;padding:0" dir="ltr" bgcolor="#ffffff">
+            <table cellspacing="0" cellpadding="0" width="100%" border="0" style="border-collapse:collapse">
+                <tbody>
+                    <tr>
+                        <td style="font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;background:#ffffff">
+                            <table cellspacing="0" cellpadding="0" width="100%" style="border-collapse:collapse">
+                                <tbody>
+                                    <tr><td height="20" style="line-height:20px" colspan="3">&nbsp;</td></tr>
+                                    <tr>
+                                        <td width="15" style="display:block;width:15px">&nbsp;&nbsp;&nbsp;</td>
+                                        <td>
+                                            <table cellspacing="0" cellpadding="0" width="100%" style="border-collapse:collapse">
+                                                <tbody>
+                                                    <tr>
+                                                        <td width="32" align="left" valign="middle" style="height:32;line-height:0px">
+                                                            <img src="https://img.icons8.com/?size=100&id=uLWV5A9vXIPu&format=png&color=000000" width="32" height="32" style="border:0">
+                                                        </td>
+                                                        <td width="15" style="display:block;width:15px">&nbsp;&nbsp;&nbsp;</td>
+                                                        <td width="100%">
+                                                            <span style="color:#3b5998;font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;font-size:19px;line-height:32px;font-weight:bold">Login Alert</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr style="border-bottom:solid 1px #e5e5e5">
+                                                        <td height="16" style="line-height:16px" colspan="3">&nbsp;</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            
+                                            <table cellspacing="0" cellpadding="0" width="100%" style="border-collapse:collapse">
+                                                <tbody>
+                                                    <tr><td height="28" style="line-height:28px">&nbsp;</td></tr>
+                                                    <tr>
+                                                        <td style="font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;font-size:16px;line-height:21px;font-weight:bold;color:#141823">Hi {{ name }},</td>
+                                                    </tr>
+                                                    <tr><td height="14" style="line-height:14px">&nbsp;</td></tr>
+                                                    <tr>
+                                                        <td style="font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;font-size:16px;line-height:21px;color:#141823">Your account was recently logged into from an unrecognized browser or device. Was this you?</td>
+                                                    </tr>
+                                                    <tr><td height="24" style="line-height:24px">&nbsp;</td></tr>
+                                                    
+                                                    <tr>
+                                                        <td>
+                                                            <table cellspacing="0" cellpadding="0" width="100%" style="border-collapse:collapse;background-color:#f6f7f8;border-radius:8px;padding:15px">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td style="padding:15px">
+                                                                            <div style="font-size:12px;color:#777;text-transform:uppercase;margin-bottom:4px;font-weight:bold">New Login Details</div>
+                                                                            <div style="font-family:Helvetica;font-size:15px;color:#141823;margin-bottom:4px"><strong>Time:</strong> {{ month }} {{ day }}, {{ year }} at {{ time }}</div>
+                                                                            <div style="font-family:Helvetica;font-size:15px;color:#141823;margin-bottom:4px"><strong>Location:</strong> Near {{ city }}, {{ country }}</div>
+                                                                            <div style="font-family:Helvetica;font-size:15px;color:#141823"><strong>Browser:</strong> Chrome</div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr><td height="28" style="line-height:28px">&nbsp;</td></tr>
+                                                    
+                                                    <tr>
+                                                        <td>
+                                                            <table cellspacing="0" cellpadding="0" width="100%" style="border-collapse:collapse">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td width="48%" style="border-radius:4px;text-align:center;background:#4c649b;border:solid 1px #344c80">
+                                                                            <a href="{{ link }}" style="color:#ffffff;text-decoration:none;display:block;padding:12px;font-family:Helvetica;font-weight:bold;font-size:14px">Review Login</a>
+                                                                        </td>
+                                                                        <td width="4%">&nbsp;</td>
+                                                                        <td width="48%" style="border-radius:4px;text-align:center;background:#f6f7f8;border:solid 1px #c9ccd1">
+                                                                            <a href="#" style="color:#525252;text-decoration:none;display:block;padding:12px;font-family:Helvetica;font-weight:bold;font-size:14px">Manage Alerts</a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr><td height="32" style="line-height:32px">&nbsp;</td></tr>
+                                                </tbody>
+                                            </table>
+
+                                            <table cellspacing="0" cellpadding="0" width="100%" style="border-collapse:collapse;border-top:solid 1px #e5e5e5">
+                                                <tbody>
+                                                    <tr><td height="16" style="line-height:16px">&nbsp;</td></tr>
+                                                    <tr>
+                                                        <td style="font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;font-size:11px;color:#aaaaaa;line-height:16px">
+                                                            This message was sent to <a href="mailto:{{ email }}" style="color:#3b5998;text-decoration:none">{{ email }}</a>. If you didn't authorize this, please change your password immediately.
+                                                            <br><br>
+                                                            Company Name, 123 Business Way, City, State, Zip
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                        <td width="15" style="display:block;width:15px">&nbsp;&nbsp;&nbsp;</td>
+                                    </tr>
+                                    <tr><td height="20" style="line-height:20px" colspan="3">&nbsp;</td></tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
