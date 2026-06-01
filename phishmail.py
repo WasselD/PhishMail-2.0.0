@@ -54,7 +54,7 @@ def print_logo():
     print(random.choice(colors) + logo + RESET)
 
 def print_owner():
-    print('\n [-] Tool Created by D.Wassel [-] \n ')
+    print('\n [-] Tool Created by WASSELD [-] \n ')
 
 def print_menu():
     options = [
@@ -387,4 +387,4 @@ if __name__ == "__main__":
 
 
 __version__ = "2.0.0"
-__author__ = "D.Wassel"
+__author__ = "WASSELD"
