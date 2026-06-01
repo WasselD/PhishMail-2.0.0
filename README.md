@@ -39,9 +39,9 @@ Don't Come To Me And Blame Me For It
 
 ```bash
 
-git clone https://github.com/WasselD/PhishMail-2.0.0.git
+git clone https://github.com/WasselD/PhishMail.git
 
-cd Phishmail
+cd PhishMail
 
 # (Recommended) create virtual environment
 
