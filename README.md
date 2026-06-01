@@ -1,6 +1,6 @@
 ### PhishMail
 
-**Coded By D.Wassel**
+**Coded By WASSELD**
 
 PhishMail Will Help You To Create Professional Phishing Emails Fast And Easy
 
